@@ -82,9 +82,9 @@ git
 docker
 kubectl
 zsh-autosuggestions
-zsh-syntax-highlighting
 gcloud
 mvn
+zsh-syntax-highlighting
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
@@ -116,13 +116,14 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vpn='/Users/nunzio/Downloads/open-vpn.sh'
 
 # Kubernetes helpers
 alias k9s-cluster='gcloud config set account nunzio.dinapoli@maggioli.it >/dev/null && k9s'
 alias k9s-kind='export KUBECONFIG="$HOME/.kube/kind/bari-team-config" && k9s'
 
 # add new entry for PATH env
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/Users/nunzio/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/Users/nunzio/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export EDITOR=nano

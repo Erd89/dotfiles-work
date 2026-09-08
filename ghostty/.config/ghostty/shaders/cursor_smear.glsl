@@ -1,0 +1,1 @@
+/Users/nunzio/Documents/Repository/ghostty-shader-playground/public/shaders/cursor_smear.glsl

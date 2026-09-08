@@ -13,3 +13,8 @@ shell-integration-features = sudo
 confirm-close-surface = false
 working-directory = home
 window-inherit-working-directory = false
+
+# Cursor shaders
+custom-shader = /Users/nunzio/.config/ghostty/shaders/cursor_blaze_no_trail.glsl
+custom-shader = /Users/nunzio/.config/ghostty/shaders/cursor_smear.glsl
+custom-shader-animation = always
