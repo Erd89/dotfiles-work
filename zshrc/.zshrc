@@ -128,8 +128,8 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 export EDITOR=nano
 
-# To customize prompt, run `p10k configure` or edit ~/stow_directory/p10k/.p10k.zsh.
-[[ ! -f ~/stow_directory/p10k/.p10k.zsh ]] || source ~/stow_directory/p10k/.p10k.zsh
+# To customize prompt, run `p10k configure` or edit ~/dotfiles-work/p10k/.p10k.zsh.
+[[ ! -f ~/dotfiles-work/p10k/.p10k.zsh ]] || source ~/dotfiles-work/p10k/.p10k.zsh
 
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
