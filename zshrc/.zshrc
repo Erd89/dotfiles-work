@@ -91,6 +91,9 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 source $ZSH/oh-my-zsh.sh
 
+# Complete file and directory names for GNU stat (installed as gstat).
+compdef _files gstat
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
