@@ -122,7 +122,7 @@ export LANG=en_US.UTF-8
 alias vpn="$HOME/Downloads/open-vpn.sh"
 
 # Kubernetes helpers
-alias k9s-cluster="gcloud config set account nunzio.dinapoli@maggioli.it >/dev/null && $HOME/Documents/tool/gcloud-login/gcloud-check-login.sh && k9s"
+alias k9s-cluster="gcloud config set account nunzio.dinapoli@maggioli.it >/dev/null && $HOME/Documents/tool/work-tools/gcloud-login/gcloud-check-login.sh && k9s"
 alias k9s-kind='export KUBECONFIG="$HOME/.kube/kind/bari-team-config" && k9s'
 
 # add new entry for PATH env
