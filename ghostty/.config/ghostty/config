@@ -1,9 +1,9 @@
 # Theme and Appearance
-theme = 0x96f
+theme = Arthur
 font-family = FiraCode Nerd Font Mono
 font-size = 14
 window-theme = auto
-background-opacity = 0.90
+background-opacity = 0.8
 background-blur-radius = 10
 minimum-contrast = 4
 window-colorspace = display-p3
