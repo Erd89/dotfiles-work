@@ -80,8 +80,3 @@ Questa variante funziona anche senza dare Accessibility a Karabiner/Ghostty.
   (`trust=true`, spazio che cambia).
 - Senza quei permessi il binario diretto fallisce **0/5**, mentre
   `open -n -a /Applications/noswoosh.app --args left` andava **5/5**.
-
-## File duplicato
-
-`no stow/karabiner-configuration/.config/karabiner/karabiner.json` è una variante più
-vecchia (senza le regole noswoosh). Il riferimento aggiornato è `karabiner.json`.
