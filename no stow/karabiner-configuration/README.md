@@ -15,8 +15,15 @@ repo è `karabiner.json` (e viene ricaricata da Karabiner da sola appena cambia)
 | `Alt` + `G`  | apre Ghostty |
 | `Alt` + `F`  | apre Finder |
 
-Nota: nel profilo `simple_modifications` c'è uno **swap Cmd ⇄ Option**, quindi le regole
-scritte con `left_command` corrispondono al tasto fisico che fa da Command.
+Nota: sulla **Logitech esterna** (device `vendor_id: 1133`, `product_id: 45091`) c'è uno
+**swap Cmd ⇄ Option** definito nelle `simple_modifications` *del device* (non a livello
+profilo), quindi le regole scritte con `left_command` corrispondono al tasto fisico che fa
+da Command **solo su quella tastiera**.
+
+La sezione `devices` non ha più la regola `{ "is_keyboard": true, "ignore": true }`: le
+complex modification valgono quindi su tutte le tastiere (Logitech **e** integrata Apple),
+mentre lo swap Cmd ⇄ Option resta esclusivo della Logitech. Le `simple_modifications` a
+livello profilo sono vuote di proposito.
 
 ## ⚠️ Permessi Accessibility (il problema ricorrente)
 
