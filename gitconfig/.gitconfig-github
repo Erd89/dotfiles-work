@@ -1,0 +1,5 @@
+# Identità usata SOLO per repository con remote su github.com
+# Incluso da ~/.gitconfig tramite includeIf hasconfig:remote.*.url
+[user]
+	name = Erd89
+	email = red.style89@gmail.com

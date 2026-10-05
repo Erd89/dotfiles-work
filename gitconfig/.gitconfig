@@ -15,3 +15,11 @@
     mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
 [pull]
 	rebase = false
+
+# Solo per repo con remote su github.com -> identità Erd89
+[includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
+	path = ~/.gitconfig-github
+[includeIf "hasconfig:remote.*.url:ssh://git@github.com/**"]
+	path = ~/.gitconfig-github
+[includeIf "hasconfig:remote.*.url:https://github.com/**"]
+	path = ~/.gitconfig-github
