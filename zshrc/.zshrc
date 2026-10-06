@@ -89,6 +89,9 @@ zsh-syntax-highlighting
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
+# Completions installed by Homebrew (e.g. _fd), must be added before compinit
+fpath+=(/opt/homebrew/share/zsh/site-functions)
+
 source $ZSH/oh-my-zsh.sh
 
 # Complete file and directory names for GNU stat (installed as gstat).
