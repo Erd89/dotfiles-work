@@ -148,3 +148,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export JAVA_HOME="$SDKMAN_DIR/candidates/java/current"
 
 export PATH="$HOME/.local/bin:$PATH"
+export CLOUDSDK_PYTHON=/opt/homebrew/bin/python3.13
